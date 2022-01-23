@@ -1,0 +1,41 @@
+<div class="container" #form style="border: 1px solid black;">
+    <div class="row" style="margin-top: 20px; margin-left: 20px;">
+        <h4>D-48A</h4>
+    </div>
+    <div class="row">
+        <h2 class="document_header">Application of issue of Documentary Credit</h2>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-7"></div>
+        <div class="col-md-5">
+            <div class="row">
+                <div class="col-md-7" style="margin-top: 5px; padding: 0; display: flex; justify-content: right;">
+                    <h5>Importer's Code No. </h5>
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+    </div><br>
+    <div class="row">
+        <div class="col-md-5" style="margin-left: 20px;">
+            <p> I/We request you in pursuance of import LC limit of Rs <input type="text" class="form-control"
+                    style="width: 40%; display: inline;"> sanctioned to me/us on <input type="date"
+                    style="width: 40%; display: inline; margin-top: 10px;">, by Air Mail/Telex/Cable/Swift, please
+                establish with your Branch/Corresponsdents in <input type="text" class="form-control"
+                style="width: 50%; display: inline;"> a Documentary Credit as per details below :</p>
+        </div>
+        <div class="col-md-7">
+
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <button (click)="generatePDF()">Generate PDF</button>
+        </div>
+    </div>
+</div>
